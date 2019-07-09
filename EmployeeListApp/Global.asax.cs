@@ -16,6 +16,7 @@ namespace EmployeeListApp
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            ControllerBuilder.Current.SetControllerFactory(new EmployeeListApp.ControllerFactory.AppControllerFactory());
         }
     }
 }
