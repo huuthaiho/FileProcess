@@ -30,5 +30,7 @@ namespace DataModel
         public string Contactor { get; set; }
 
         //test
+
+        //test2
     }
 }
