@@ -28,5 +28,7 @@ namespace DataModel
         [RegularExpression(@"^[a-zA-Z][0-9a-zA-Z .,'-]*$")]
         [MinLength(0)]
         public string Contactor { get; set; }
+
+        //test
     }
 }
